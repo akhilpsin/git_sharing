@@ -1,2 +1,18 @@
-print ("hello world") 
-#After executing the cell above, you should see that Python prints Hello, Python!
+#After executing the cell below, you should see that Python prints Hello, Python!
+print ("hello, Python!") 
+
+
+# Check the Python Version
+import sys
+print(sys.version)
+
+# Practice on writing comments
+print('Hello, Python!') # This line prints a string
+# print('Hi')
+
+# Print string as error message
+frint("Hello, Python!")
+
+# Try to see build in error message
+print("Hello, Python!)
+
