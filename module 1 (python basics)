@@ -16,3 +16,10 @@ frint("Hello, Python!")
 # Try to see build in error message
 print("Hello, Python!)
 
+# Print string and error to see the running order
+print("This will be printed")
+frint("This will cause an error")
+print("This will NOT be printed")
+
+# Write your code below and press Shift+Enter to execute(for jupiter notebook)
+print("Hello, world!")
