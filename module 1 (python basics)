@@ -1,3 +1,5 @@
+                                   Easy start to python
+
 #After executing the cell below, you should see that Python prints Hello, Python!
 print ("hello, Python!") 
 
@@ -23,3 +25,36 @@ print("This will NOT be printed")
 
 # Write your code below and press Shift+Enter to execute(for jupiter notebook)
 print("Hello, world!")
+
+
+                                  Types of objects in Python
+
+
+# Integer
+11
+
+# Float
+2.14
+
+# Type of 12
+type(12)
+
+# Type of 2.14
+type(2.14)
+
+# Type of "Hello, Python 101!"
+type("Hello, Python 101!")
+
+#In the code cell below, use the type() function to check the object type of 12.0.
+type(12.0)
+
+# Print the type of -1
+type(-1)
+
+# Print the type of 4
+type(4)
+
+# Print the type of 0
+type(0)
+
+
