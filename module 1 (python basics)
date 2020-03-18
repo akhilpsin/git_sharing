@@ -103,4 +103,23 @@ type(True)
 # Integer division operation expression
 25 // 5
 
+*********************************************** Variables
+
+# Store value into variable
+x = 43 + 60 + 16 + 41
+
+# Use another variable to store the result of the operation between variable and value
+y = x / 60
+y
+
+# Name the variables meaningfully
+total_min = 43 + 42 + 57 # Total length of albums in minutes
+total_min
+
+# Complicate expression
+total_hours = (43 + 42 + 57) / 60  # Total hours in a single expression
+total_hours
+
+
+
 
