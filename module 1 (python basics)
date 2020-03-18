@@ -1,4 +1,4 @@
-                                   Easy start to python
+*************************************************** Easy start to python *****************************************************************
 
 #After executing the cell below, you should see that Python prints Hello, Python!
 print ("hello, Python!") 
@@ -27,7 +27,7 @@ print("This will NOT be printed")
 print("Hello, world!")
 
 
-                                  Types of objects in Python
+************************************************ Types of objects in Python ***********************************************************
 
 
 # Integer
@@ -57,8 +57,8 @@ type(4)
 # Print the type of 0
 type(0)
 
-                                                            Floats
-
+******************************************************* Floats **************************************************************************
+ 
 # Print the type of 1.0
 # Notice that 1 is an int, and 1.0 is a float
 type(1.0) 
@@ -92,5 +92,15 @@ str(1.2)
 
 # Type of True
 type(True)
+
+********************************************* Expression and Variables *****************************************************************
+
+********************************************* Expressions
+
+# Addition operation expression
+43 + 60 + 16 + 41
+
+# Integer division operation expression
+25 // 5
 
 
