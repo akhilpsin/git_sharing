@@ -175,6 +175,7 @@ a_list
 a_list[1]
 
 ************************************************* Sets in Python ***********************************************************************
+
 # Create a set
 set1 = {"pop", "rock", "soul", "hard rock", "rock", "R&B", "rock", "disco"}
 set1
@@ -244,21 +245,25 @@ set({"Back in Black", "AC/DC"}).issubset(album_set1)
 : # Check if superset
 album_set1.issuperset({"Back in Black", "AC/DC"})
 
+# Convert the list [‘rap’,‘house’,‘electronic music’, ‘rap’] to a set:
 # Write your code below and press Shift+Enter to executese
 set1= set(['rap','house','electronic music', 'rap'])
 set1
 
+# Consider the list A = [1, 2, 2, 1] and set B = set([1, 2, 2, 1]), does sum(A) = sum(B)
 # Write your code below and press Shift+Enter to execute
 A = [1, 2, 2, 1]
 B = set([1, 2, 2, 1])
 print('sum of A is',sum(A))
 print('sum od b is',sum(B))
 
+# Create a new set album_set3 that is the union of album_set1 and album_set2:
 # Write your code below and press Shift+Enter to execute
 album_set1 = set(["Thriller", 'AC/DC', 'Back in Black'])
 album_set2 = set([ "AC/DC", "Back in Black", "The Dark Side of the Moon"])
 album_set3 = album_set1.union(album_set2)
 
+#Find out if album_set1 is a subset of album_set3
 # Write your code below and press Shift+Enter to execut
 album_set1.issubset(album_set3)
 
