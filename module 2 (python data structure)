@@ -213,7 +213,7 @@ A
 album_set1 = set(["Thriller", 'AC/DC', 'Back in Black'])
 album_set2 = set([ "AC/DC", "Back in Black", "The Dark Side of the Moon"])
 
-: # Print two sets
+# Print two sets
 album_set1, album_set2
 
 # Find the intersections
@@ -225,11 +225,11 @@ album_set1.difference(album_set2)
 
  album_set2.difference(album_set1)
  
- # Use intersection method to find the intersection of album_list1 and␣
+ Use intersection method to find the intersection of album_list1 and␣
 ,→album_list2
 album_set1.intersection(album_set2)
 
-: # Find the union of two sets
+# Find the union of two sets
 album_set1.union(album_set2)
 
 
