@@ -232,5 +232,36 @@ album_set1.intersection(album_set2)
 # Find the union of two sets
 album_set1.union(album_set2)
 
+# Check if superset
+set(album_set1).issuperset(album_set2)
+
+# Check if subset
+set(album_set2).issubset(album_set1)
+
+# Check if subset
+set({"Back in Black", "AC/DC"}).issubset(album_set1)
+
+: # Check if superset
+album_set1.issuperset({"Back in Black", "AC/DC"})
+
+# Write your code below and press Shift+Enter to executese
+set1= set(['rap','house','electronic music', 'rap'])
+set1
+
+# Write your code below and press Shift+Enter to execute
+A = [1, 2, 2, 1]
+B = set([1, 2, 2, 1])
+print('sum of A is',sum(A))
+print('sum od b is',sum(B))
+
+# Write your code below and press Shift+Enter to execute
+album_set1 = set(["Thriller", 'AC/DC', 'Back in Black'])
+album_set2 = set([ "AC/DC", "Back in Black", "The Dark Side of the Moon"])
+album_set3 = album_set1.union(album_set2)
+
+# Write your code below and press Shift+Enter to execut
+album_set1.issubset(album_set3)
+
+
 
 
