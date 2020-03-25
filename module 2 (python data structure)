@@ -305,6 +305,14 @@ release_year_dict.values()
 release_year_dict['Graduation'] = '2007'
 release_year_dict
 
+# Delete entries by key
+del(release_year_dict['Thriller'])
+del(release_year_dict['Graduation'])
+release_year_dict
+
+# Verify the key is in the dictionary
+'The Bodyguard' in release_year_dict
+
 
 
 
