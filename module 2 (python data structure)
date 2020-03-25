@@ -269,6 +269,17 @@ album_set1.issubset(album_set3)
 
 **************************************************** Dictionaries in Python ************************************************************
 
+# Create the dictionary
+Dict = {"key1": 1, "key2": "2", "key3": [3, 3, 3], "key4": (4, 4, 4), ('key5'):␣
+,→5, (0, 1): 6}
+Dict
+
+# Access to the value by the key
+Dict["key1"]
+
+: # Access to the value by the key
+Dict[(0, 1)]
+
 
 
 
